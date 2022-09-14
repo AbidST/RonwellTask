@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ae78578f-743d-410a-8028-0c4df32babd5"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="Ronwell">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.trendyol.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="b640653d-ef02-4be6-b358-799b4f43a80a"
+	name="RonwellRepository"
+	relativepath="RonwellRepository.rxrep">
+		<codegen
+		classname="RonwellRepository"
+		namespace="Ronwell">
+		</codegen>
+		<rootfolder
+		id="8e9d2f9e-d82b-437c-b905-80088baa92f2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

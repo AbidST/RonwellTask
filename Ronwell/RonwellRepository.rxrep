@@ -1,0 +1,240 @@
+﻿<repository
+id="b640653d-ef02-4be6-b358-799b4f43a80a"
+name="RonwellRepository">
+	<codegen
+	classname="RonwellRepository"
+	namespace="Ronwell">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="8e9d2f9e-d82b-437c-b905-80088baa92f2"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="2ac68116-dc8c-48ae-b733-6dc6bce0e129"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9ec64da7-4370-4e9b-a71b-c8c5da8ea8cb"
+			name="UEyeOl"
+			refimgid="ad2e8542-bfba-471a-b736-373b94df1766"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/div[@innertext='Üye Ol']"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//div[@innertext='Üye Ol']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1c46cace-1f07-4214-8c94-0c7f8baf820e"
+			name="SomeDivTag"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div/div/div/div"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/?/?/div/div/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/?/?/div/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="133e6d36-0bad-4067-a550-6ef288db365c"
+			name="UEyeOl1"
+			refimgid="11cd5900-0f60-473f-836f-97d5f2a465e5"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/div[1]/form/button/span[@innertext='Üye Ol']"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'login-register']//form/button/span[@innertext='Üye Ol']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/?/?/span[@innertext='Üye Ol']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d387bc78-50d0-413c-a325-e3919730daf2"
+			name="RegisterEmail"
+			refimgid="1f116e9c-8611-4de5-b0ab-5a3b468c5143"
+			refpath="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+			robustPath="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//input[#'register-email']
+			</item>
+			<basepath>
+				/dom[@domain='www.trendyol.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="a5bc486a-1262-42cf-a6cd-7796125c4ec8"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f197e322-80b7-400a-b0f0-bb694bed73c3"
+			name="GoogleChrome"
+			refimgid="9e8382fb-3645-4b1a-be4c-a2857305059a"
+			refpath="/menubar[@processname='explorer']/container[@automationid='40965']/container/element/toolbar/button[@accessiblename='Google Chrome']"
+			robustPath="/menubar[@processname='explorer']//button[@accessiblename='Google Chrome']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@automationid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='Google Chrome']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="bf83cbd0-1964-49ab-8158-2471725e034f"
+		isrooted="True"
+		name="NewTab"
+		refpath="/dom[@domain='newtab']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='newtab']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a594f409-8408-4aa2-81fe-4b04db4822c6"
+		isrooted="True"
+		name="HttpsWwwTrendyolComUyelikcbEqhttps"
+		refpath="/form[@title='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="df2376fd-bad7-4c21-823e-7e80132792fc"
+			name="Pane"
+			refimgid="91696024-74b2-444a-80c7-eff75264b136"
+			refpath="/form[@title>'https://www.trendyol.com/']/container/container/container/container[2]/container[1]"
+			robustPath="/form[@title>'https://www.trendyol.com/']/?/?/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'https://www.trendyol.com/']/container[@accessiblename&gt;'https://www.trendyol.com/']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]
+			</item>
+			<basepath>
+				/form[@title&gt;'https://www.trendyol.com/']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANzSURBVDhPrY5tTBN3AIfP+IovM7JsbQVadloG
+V2wPausNaA8pUjKNGZtkcXxaFmfiWOIcI1pGHZSXTragHQy60qhLJKLJUmFDWChj2gLOlzAHyzaZ
+rO0Z1LXFjE3thftlR+m3fd0veXL/u/yfJ0f8bysniOV2ktw4la9RXWdU1WM7qD6/nrot8vOonhoQ
+31tv6FTm46TkeZYgViS0pS3Kh9KlCt8O6kCQpYfvGXNmRP4WWRDB4pkz0LPBfM34DT1lfV8upbRa
+7cqEThDvUanJQwxVGTTQk5xRw4uXBa5IB64kD5xZZNd2IVQsfjNp+FCR+uFNVvXhJ9s3pyV0gqis
+ZPTf7dWNBAx0LJivRminDrNv7Ue4sRZRhw3RpteEiFUvhGs0QqRGLURt6qnIac3uCxfKl8cDBXWF
+TS2VRu5HEy38YaBxx9aIy+fHceLMNCyd0zjvuYW7V9vx2LtLeDKgEZ4MZkcffE21jnVnS+KBbXZT
+b0VzybzndQaBV0sFz1mf8LYzDJN9DsaGKPa3RdAzfBtzE4fBj+WC92fF7n2j9I+5lFnxQIadncj7
+vHShqtYszNRVw+r8DWxjFJqacBymLoKj5wIITbSCH9UidkWJoCc94O9S5MQDW5rYKZWrFIWuV4TB
+L+2ock0j3xZBtihnW8LItUZw8IsAZm45xAAN/ko6Qp40brRTlrsUaDB6M53mx7R7j3Do4hG0DE6i
+zBFGjjUMuvZPFJ8Iw9E7iQc/vAn+6hbEvk/huUuya+MdUioeIBsNDS86S7jMTjO07jJYvj2DY5d+
+QoUrgApnEM19v8I/7sa8T4fYiAz8iOSv2d7nuv1dUkU8ILcb8ra2mXwi/Nb2YjDucpT1fCAc7ncJ
+loGz4h99hOvenfjHK0XM+yz44U2/P+zbdGCwRbIuHkjdRyXLbXnV5GeF90lHERbJaC8W1M49Qo5z
+Lz7u0WJ6QIan3o1i4BnM9W/oOH1sfaaoLosHCJZYkfyyMivNxtQrTrK/yE8VzonPp+RJ40JBO4Mh
+z2Z+fmj9o9jQ2juP+td+aj+YpGcYImlJToyiqFWSfRkvyJsLylNsjDu1/iUfWa+7+45DGbrWveHm
+/a/WdEV6171x7uhqklUQaxLaf7aMOk6tSnl3W6rsiDZTUaWhLQ2y3MttK1WjHUkp/aeI1Yl7iRHE
+v7C0vdka4RSEAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
